@@ -1,0 +1,36 @@
+
+
+reglas PHP:
+
+1)Escribir codigo dentro  de tags:
+
+<?PHP
+ //codigo php
+?>
+
+
+2) escribir en un archivo .php
+
+
+3) tiene que correr en un servidor.
+
+
+---------------------------------------------------------
+Variables:
+- No tienen tipo.
+- Quien le da el tipo a la variable? El valor que tiene adentro.
+- Llevan al principio $.
+-----------
+
+inclusion de archivos:
+	
+	// los include solo tirar warning si no existen
+   include " // puede repetir. Se usa para archivo que se pagan varias veces.
+   include_once // solo una pega vez.
+
+   // es requerido si o si. Las clase se incluyen con require_once
+   require "alumno.php";
+   require_once //solo una pega vez
+
+
+   http://www.utnfravirtual.org.ar/
